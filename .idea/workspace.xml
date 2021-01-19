@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a6828b5-a644-410d-b966-bb006dae34b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eureka-sourcecode-reading" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eureka-sourcecode-reading" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../software/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kPw4RC12GAac6yJofVvs1kdacG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Shell Script.gradlew">
+    <configuration name="EurekaClientServerRestIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.netflix.eureka.resources.EurekaClientServerRestIntegrationTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":eureka-server:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/panson/Documents/project/github/eureka/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/panson/Documents/project/github/eureka/build.gradle (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/panson/Documents/project/github/eureka/build.gradle (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradlew" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/gradlew" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.gradlew" />
+        <item itemvalue="Gradle.EurekaClientServerRestIntegrationTest" />
+        <item itemvalue="Gradle./Users/panson/Documents/project/github/eureka/build.gradle (3)" />
+        <item itemvalue="Gradle./Users/panson/Documents/project/github/eureka/build.gradle (2)" />
+        <item itemvalue="Gradle./Users/panson/Documents/project/github/eureka/build.gradle (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a6828b5-a644-410d-b966-bb006dae34b7" name="Default Changelist" comment="" />
+      <created>1605615342725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605615342725</updated>
+      <workItem from="1605615346085" duration="5585000" />
+      <workItem from="1605689439449" duration="288000" />
+      <workItem from="1609050768087" duration="6805000" />
+      <workItem from="1609513237702" duration="8339000" />
+      <workItem from="1610885331182" duration="64000" />
+      <workItem from="1610885707531" duration="838000" />
+      <workItem from="1611069757219" duration="587000" />
+      <workItem from="1611070619427" duration="349000" />
+      <workItem from="1611070988676" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/2.x" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1698" height="370" key="GridCell.Tab.0.bottom" timestamp="1611070354027">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.0.bottom/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354027" />
+    <state width="1698" height="370" key="GridCell.Tab.0.center" timestamp="1611070354026">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.0.center/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354026" />
+    <state width="1698" height="370" key="GridCell.Tab.0.left" timestamp="1611070354026">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.0.left/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354026" />
+    <state width="1698" height="370" key="GridCell.Tab.0.right" timestamp="1611070354027">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.0.right/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354027" />
+    <state width="1698" height="370" key="GridCell.Tab.1.bottom" timestamp="1611070354033">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.1.bottom/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354033" />
+    <state width="1698" height="370" key="GridCell.Tab.1.center" timestamp="1611070354032">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.1.center/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354032" />
+    <state width="1698" height="370" key="GridCell.Tab.1.left" timestamp="1611070354032">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.1.left/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354032" />
+    <state width="1698" height="370" key="GridCell.Tab.1.right" timestamp="1611070354032">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state width="1698" height="370" key="GridCell.Tab.1.right/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354032" />
+    <state x="379" y="208" key="SettingsEditor" timestamp="1611071020992">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state x="379" y="208" key="SettingsEditor/0.25.1744.1095@0.25.1744.1095" timestamp="1611071020992" />
+    <state x="692" y="470" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611070034958">
+      <screen x="0" y="25" width="1744" height="1095" />
+    </state>
+    <state x="692" y="470" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1744.1095@0.25.1744.1095" timestamp="1611070034958" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+com/netflix/discovery/shared/transport/EurekaHttpRequest.java
+ com.netflix.discovery.shared.transport.EurekaHttpRequest
+com/netflix/discovery/junit/resource/DiscoveryClientResource.java
+ com.netflix.discovery.junit.resource.DiscoveryClientResource
+ com.netflix.discovery.junit.resource.DiscoveryClientResource$1
+ com.netflix.discovery.junit.resource.DiscoveryClientResource$2
+ com.netflix.discovery.junit.resource.DiscoveryClientResource$3
+ com.netflix.discovery.junit.resource.DiscoveryClientResource$4
+ com.netflix.discovery.junit.resource.DiscoveryClientResource$DiscoveryClientRuleBuilder
+com/netflix/discovery/shared/transport/SimpleEurekaHttpServer.java
+ com.netflix.discovery.shared.transport.SimpleEurekaHttpServer
+ com.netflix.discovery.shared.transport.SimpleEurekaHttpServer$1
+com/netflix/discovery/util/InstanceInfoGenerator.java
+ com.netflix.discovery.util.InstanceInfoGenerator
+ com.netflix.discovery.util.InstanceInfoGenerator$1
+ com.netflix.discovery.util.InstanceInfoGenerator$InstanceInfoGeneratorBuilder
+com/netflix/discovery/util/DiagnosticClient.java
+ com.netflix.discovery.util.DiagnosticClient
+com/netflix/discovery/shared/transport/ClusterSampleData.java
+ com.netflix.discovery.shared.transport.ClusterSampleData
+ com.netflix.discovery.shared.transport.ClusterSampleData$1
+com/netflix/discovery/shared/transport/EurekaTransportEventListener.java
+ com.netflix.discovery.shared.transport.EurekaTransportEventListener
+com/netflix/discovery/shared/transport/EurekaHttpClientCompatibilityTestSuite.java
+ com.netflix.discovery.shared.transport.EurekaHttpClientCompatibilityTestSuite
+ com.netflix.discovery.shared.transport.EurekaHttpClientCompatibilityTestSuite$1
+com/netflix/discovery/junit/resource/SimpleEurekaHttpServerResource.java
+ com.netflix.discovery.junit.resource.SimpleEurekaHttpServerResource
+com/netflix/discovery/util/ApplicationFunctions.java
+ com.netflix.discovery.util.ApplicationFunctions
+ com.netflix.discovery.util.ApplicationFunctions$1

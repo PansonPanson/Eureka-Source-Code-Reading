@@ -1,0 +1,3 @@
+com/netflix/eureka/resources/EurekaClientServerRestIntegrationTest.java
+ com.netflix.eureka.resources.EurekaClientServerRestIntegrationTest
+ com.netflix.eureka.resources.EurekaClientServerRestIntegrationTest$1
