@@ -14,8 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a6828b5-a644-410d-b966-bb006dae34b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-core/src/main/java/com/netflix/eureka/EurekaBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-core/src/main/java/com/netflix/eureka/EurekaBootStrap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../software/gradle-repository/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/21599814ad9a605b86f3e6381571beccd861a32/servlet-api-2.5-sources.jar!/javax/servlet/ServletContextListener.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/src.zip!/java/util/EventListener.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -73,21 +83,33 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunManager" selected="Shell Script.gradlew">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientServerRestIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,7 +126,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="/Users/panson/Documents/project/github/eureka/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -121,7 +145,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="/Users/panson/Documents/project/github/eureka/build.gradle (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -138,7 +164,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="/Users/panson/Documents/project/github/eureka/build.gradle (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -155,7 +183,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="gradlew" type="ShConfigurationType" temporary="true">
@@ -167,6 +197,8 @@
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/zsh" />
       <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -198,9 +230,27 @@
       <workItem from="1610885707531" duration="838000" />
       <workItem from="1611069757219" duration="587000" />
       <workItem from="1611070619427" duration="349000" />
-      <workItem from="1611070988676" duration="51000" />
+      <workItem from="1611070988676" duration="1946000" />
+      <workItem from="1611144516848" duration="1796000" />
+      <workItem from="1611287991405" duration="599000" />
+      <workItem from="1611293475667" duration="939000" />
+      <workItem from="1611586760452" duration="596000" />
+      <workItem from="1611629143582" duration="133000" />
+      <workItem from="1611668753499" duration="1035000" />
+      <workItem from="1611670202961" duration="4000" />
+      <workItem from="1611727318190" duration="600000" />
+      <workItem from="1612529876577" duration="596000" />
+      <workItem from="1612609231086" duration="157000" />
+      <workItem from="1612710842662" duration="1085000" />
+      <workItem from="1612712048815" duration="176000" />
+      <workItem from="1612712415852" duration="95000" />
+      <workItem from="1612712524305" duration="3500000" />
+      <workItem from="1612776797226" duration="3241000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -240,47 +290,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1698" height="370" key="GridCell.Tab.0.bottom" timestamp="1611070354027">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.0.bottom/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354027" />
-    <state width="1698" height="370" key="GridCell.Tab.0.center" timestamp="1611070354026">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.0.center/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354026" />
-    <state width="1698" height="370" key="GridCell.Tab.0.left" timestamp="1611070354026">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.0.left/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354026" />
-    <state width="1698" height="370" key="GridCell.Tab.0.right" timestamp="1611070354027">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.0.right/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354027" />
-    <state width="1698" height="370" key="GridCell.Tab.1.bottom" timestamp="1611070354033">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.1.bottom/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354033" />
-    <state width="1698" height="370" key="GridCell.Tab.1.center" timestamp="1611070354032">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.1.center/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354032" />
-    <state width="1698" height="370" key="GridCell.Tab.1.left" timestamp="1611070354032">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.1.left/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354032" />
-    <state width="1698" height="370" key="GridCell.Tab.1.right" timestamp="1611070354032">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state width="1698" height="370" key="GridCell.Tab.1.right/0.25.1744.1095@0.25.1744.1095" timestamp="1611070354032" />
-    <state x="379" y="208" key="SettingsEditor" timestamp="1611071020992">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state x="379" y="208" key="SettingsEditor/0.25.1744.1095@0.25.1744.1095" timestamp="1611071020992" />
-    <state x="692" y="470" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611070034958">
-      <screen x="0" y="25" width="1744" height="1095" />
-    </state>
-    <state x="692" y="470" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1744.1095@0.25.1744.1095" timestamp="1611070034958" />
   </component>
 </project>

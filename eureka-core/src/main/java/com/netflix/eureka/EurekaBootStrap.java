@@ -67,15 +67,28 @@ import org.slf4j.LoggerFactory;
 public class EurekaBootStrap implements ServletContextListener {
     private static final Logger logger = LoggerFactory.getLogger(EurekaBootStrap.class);
 
+    /**
+     * 部署环境 - 测试
+     */
     private static final String TEST = "test";
 
     private static final String ARCHAIUS_DEPLOYMENT_ENVIRONMENT = "archaius.deployment.environment";
 
     private static final String EUREKA_ENVIRONMENT = "eureka.environment";
 
+    /**
+     * 部署数据中心 - CLOUD
+     */
     private static final String CLOUD = "cloud";
+
+    /**
+     * 部署数据中心 - 默认
+     */
     private static final String DEFAULT = "default";
 
+    /**
+     *
+     */
     private static final String ARCHAIUS_DEPLOYMENT_DATACENTER = "archaius.deployment.datacenter";
 
     private static final String EUREKA_DATACENTER = "eureka.datacenter";
@@ -131,6 +144,7 @@ public class EurekaBootStrap implements ServletContextListener {
     protected void initEurekaEnvironment() throws Exception {
         logger.info("Setting the eureka configuration..");
 
+        // // 设置配置文件的数据中心
         String dataCenter = ConfigurationManager.getConfigInstance().getString(EUREKA_DATACENTER);
         if (dataCenter == null) {
             logger.info("Eureka data center value eureka.datacenter is not set, defaulting to default");
