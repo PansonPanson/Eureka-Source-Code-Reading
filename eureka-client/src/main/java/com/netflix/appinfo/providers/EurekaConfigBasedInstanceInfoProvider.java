@@ -42,6 +42,13 @@ public class EurekaConfigBasedInstanceInfoProvider implements Provider<InstanceI
         this.config = config;
     }
 
+    /**
+     * InstanceInfo，你可以认为就是当前这个服务实例的实例本身的信息，直接用了构造器模式，用InstanceInfo.Builder来构造一个复杂的
+     * 代表一个服务实例的InstanceInfo对象。
+     * 核心的思路是，从之前的那个EurekaInstanceConfig中，读取各种各样的服务实例相关的配置信息，再构造了几个其他的对象，
+     * 最终完成了InstanceInfo的构建。
+     * @return
+     */
     @Override
     public synchronized InstanceInfo get() {
         if (instanceInfo == null) {
