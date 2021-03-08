@@ -15,10 +15,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a6828b5-a644-410d-b966-bb006dae34b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/netflix/appinfo/providers/EurekaConfigBasedInstanceInfoProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/netflix/appinfo/providers/EurekaConfigBasedInstanceInfoProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-core/src/main/java/com/netflix/eureka/EurekaBootStrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-core/src/main/java/com/netflix/eureka/EurekaBootStrap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +233,10 @@
       <workItem from="1612712415852" duration="95000" />
       <workItem from="1612712524305" duration="3500000" />
       <workItem from="1612776797226" duration="5456000" />
-      <workItem from="1613738811718" duration="3710000" />
+      <workItem from="1613738811718" duration="5567000" />
+      <workItem from="1613802259170" duration="175000" />
+      <workItem from="1613822027006" duration="636000" />
+      <workItem from="1615212212578" duration="3695000" />
     </task>
     <task id="LOCAL-00001" summary="initEurekaEnvironment()">
       <created>1612947994475</created>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612947994475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基于构造器模式构造服务实例">
+      <created>1613742910767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613742910767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +299,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initEurekaEnvironment()" />
-    <option name="LAST_COMMIT_MESSAGE" value="initEurekaEnvironment()" />
+    <MESSAGE value="基于构造器模式构造服务实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于构造器模式构造服务实例" />
   </component>
 </project>

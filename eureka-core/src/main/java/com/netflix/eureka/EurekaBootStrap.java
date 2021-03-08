@@ -164,7 +164,7 @@ public class EurekaBootStrap implements ServletContextListener {
      * init hook for server context. Override for custom logic.
      */
     protected void initEurekaServerContext() throws Exception {
-        // 创建 Eureka-Server 配置
+        // 第一步：加载 eureka-server.properties 文件的配置
         EurekaServerConfig eurekaServerConfig = new DefaultEurekaServerConfig();
 
         // For backward compatibility
@@ -177,13 +177,13 @@ public class EurekaBootStrap implements ServletContextListener {
         // 创建 Eureka-Server 请求和响应编解码器
         ServerCodecs serverCodecs = new DefaultServerCodecs(eurekaServerConfig);
 
-        // 创建 Eureka-Client
-        // 1. Eureka-Server 内嵌 Eureka-Client，用于和 Eureka-Server 集群里其他节点通信交互。
+        // 第二步：创建 ApplicationInfoManager
+        // 创建 Eureka-Client：Eureka-Server 内嵌 Eureka-Client，用于和 Eureka-Server 集群里其他节点通信交互。
         ApplicationInfoManager applicationInfoManager = null;
 
         if (eurekaClient == null) {
-            // 1. EurekaInstanceConfig：将eureka-client.properties文件中的配置加载到 ConfigurationManager 中去，
-            //    然后基于 EurekaInstanceConfig 对外暴露的接口来获取这个 eureka-client.properties 文件中的一些配置项，所有配置项都有默认值
+            // EurekaInstanceConfig：将eureka-client.properties文件中的配置加载到 ConfigurationManager 中去，
+            //  然后基于 EurekaInstanceConfig 对外暴露的接口来获取这个 eureka-client.properties 文件中的一些配置项，所有配置项都有默认值
             // 可以大致认为 EurekaInstanceConfig 是服务实例相关的一些配置
 
             EurekaInstanceConfig instanceConfig = isCloud(ConfigurationManager.getDeploymentContext())
@@ -201,6 +201,7 @@ public class EurekaBootStrap implements ServletContextListener {
             applicationInfoManager = eurekaClient.getApplicationInfoManager();
         }
 
+        // 第三步： 处理注册相关的事情
         // 创建应用实例信息的注册表
         PeerAwareInstanceRegistry registry;
         if (isAws(applicationInfoManager.getInfo())) {
@@ -221,6 +222,7 @@ public class EurekaBootStrap implements ServletContextListener {
             );
         }
 
+        // 第四步：处理 peer 节点相关的事情
         // 创建 Eureka-Server 集群节点集合
         PeerEurekaNodes peerEurekaNodes = getPeerEurekaNodes(
                 registry,
@@ -230,7 +232,8 @@ public class EurekaBootStrap implements ServletContextListener {
                 applicationInfoManager
         );
 
-        // 创建 Eureka-Server 上下文
+        // 第五步：完成 eureka 上下文（context）的构建以及初始化
+        // 创建 Eureka-Server 上下文，包含了服务器需要的各种东西
         serverContext = new DefaultEurekaServerContext(
                 eurekaServerConfig,
                 serverCodecs,
@@ -248,12 +251,12 @@ public class EurekaBootStrap implements ServletContextListener {
         logger.info("Initialized server context");
 
         // Copy registry from neighboring eureka node
-        // 从其他 Eureka-Server 拉取注册信息
+        // 第六步：从其他 Eureka-Server 拉取注册信息
         int registryCount = registry.syncUp();
         registry.openForTraffic(applicationInfoManager, registryCount);
 
         // Register all monitoring statistics.
-        // 注册监控
+        // 第七步：注册监控
         EurekaMonitors.registerAllStats();
     }
     
