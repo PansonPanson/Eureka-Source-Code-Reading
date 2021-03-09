@@ -22,7 +22,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * - a new update task is always scheduled automatically after an earlier update task. However if an on-demand task
  *   is started, the scheduled automatic update task is discarded (and a new one will be scheduled after the new
  *   on-demand update).
- *
+ *    服务注册
  *   @author dliu
  */
 class InstanceInfoReplicator implements Runnable {
@@ -60,6 +60,11 @@ class InstanceInfoReplicator implements Runnable {
         logger.info("InstanceInfoReplicator onDemand update allowed rate per min is {}", allowedRatePerMinute);
     }
 
+    /**
+     * 将自己做为一个线程放到一个调度线程池中去，默认是延迟 40s 去执行这个线程
+     *
+     * @param initialDelayMs
+     */
     public void start(int initialDelayMs) {
         if (started.compareAndSet(false, true)) {
             instanceInfo.setIsDirty();  // for initial register
@@ -114,10 +119,17 @@ class InstanceInfoReplicator implements Runnable {
 
     public void run() {
         try {
+            // （不需要细看）
+            // 调用 ApplicationInfoManager 的一些方法刷新服务实例的配置，看看配置有没有改变，如果改变了，就刷新一下；
+            // 用健康检查器检查一下状态，将状态设置到 ApplicationManager 中去，更新服务实例的状态
             discoveryClient.refreshInstanceInfo();
 
             Long dirtyTimestamp = instanceInfo.isDirtyWithTime();
             if (dirtyTimestamp != null) {
+                // 实际的注册是在这里
+                // 调用的是底层的 TransportClient 的 RegistrationClient，执行了 register() 方法
+                // 将 InstanceInfo 服务实例的信息，通过 http 请求，调用 eureka server 对外暴露的一个restful 接口，将 InstanceInfo 发送过去
+
                 discoveryClient.register();
                 instanceInfo.unsetIsDirty(dirtyTimestamp);
             }
