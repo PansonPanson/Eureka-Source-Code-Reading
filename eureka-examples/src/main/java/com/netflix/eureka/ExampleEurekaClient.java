@@ -40,6 +40,15 @@ import com.netflix.discovery.EurekaClientConfig;
  * In this example, the program tries to get the example from the EurekaClient, and then
  * makes a REST call to a supported service endpoint
  *
+ *
+ *  1. 读取 eureka-client.properties 配置文件，形成一个服务实例的配置，基于接口对外提供服务实例配置项的读取
+ *  2. 基于服务实例的配置，构造了一个服务实例（instanceInfo）
+ *  3. 基于服务实例的配置和服务实例，构造了一个服务实例管理器（ApplicationInfoManager）
+ *  4. 读取 eureka-client.properties 配置文件，形成一个 eureka client 的配置，基于接口对外提供 eureka-clinet 配置项的读取
+ *  5. 基于 eureka client 配置与服务实例管理器，来构造一个 EurekaClient（DiscoveryClient），保存了一些配置，处理服务的注册和注册表的读取
+ *      启动了几个线程池、启动了网络通信组件、启动了一些调度任务、注册了监控项
+ *
+ *
  */
 public class ExampleEurekaClient {
 

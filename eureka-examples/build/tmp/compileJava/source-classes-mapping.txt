@@ -1,0 +1,10 @@
+com/netflix/eureka/ExampleEurekaGovernatedService.java
+ com.netflix.eureka.ExampleEurekaGovernatedService
+ com.netflix.eureka.ExampleEurekaGovernatedService$1
+ com.netflix.eureka.ExampleEurekaGovernatedService$ExampleServiceModule
+com/netflix/eureka/ExampleServiceBase.java
+ com.netflix.eureka.ExampleServiceBase
+com/netflix/eureka/ExampleEurekaService.java
+ com.netflix.eureka.ExampleEurekaService
+com/netflix/eureka/ExampleEurekaClient.java
+ com.netflix.eureka.ExampleEurekaClient
